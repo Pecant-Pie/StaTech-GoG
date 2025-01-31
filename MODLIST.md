@@ -285,3 +285,4 @@
 - [spark](https://www.curseforge.com/projects/361579) by Luck
 - [st'ructure tools](https://www.curseforge.com/projects/536984) by ProjectET, ramidzkh, Direwolf20
 - [tech\-enhanced](https://www.curseforge.com/projects/873906) by Thepigcat76
+- TODO add botania, hexcasting, hex gloop, + dependencies

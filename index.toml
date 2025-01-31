@@ -4875,7 +4875,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6064baf49dee806afd111ebf89bbad222a5f023e5fd2324b7b0820cd78553117"
+hash = "928bc4313d5ba6fc3a38b8ca62ff1efe049af7750c3e1d060c75c995a022e618"
 metafile = true
 
 [[files]]
@@ -4976,6 +4976,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "bd28a7c914104487e9f8887c43cf0adb8234cbe83742c96b3cce7eebe99a46cf"
+metafile = true
+
+[[files]]
+file = "mods/botania-fabric.pw.toml"
+hash = "9832f617bb01d31f806aec9f711a008a75883deb2d17e000648b51ddecdb871b"
 metafile = true
 
 [[files]]
@@ -5300,7 +5305,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "070f3b65efd84e7d28e84d819e94f1d886ebb9df0d2c8e2e5acc168966a34f67"
+hash = "5b9d1e1ec60004c0bd38a134b7b8987583250200238abe84180b1f5bea839eae"
 metafile = true
 
 [[files]]
@@ -5436,6 +5441,16 @@ metafile = true
 [[files]]
 file = "mods/herdspanic.pw.toml"
 hash = "9284302420fdf37f6a0b083ce85b28a35bd8260d2a57635c7f2d15e3499dc36c"
+metafile = true
+
+[[files]]
+file = "mods/hexcasting.pw.toml"
+hash = "fda7c004bd2c7d60d2d3bda94a3c839da723e78d437d1f39ac041f7609b5db91"
+metafile = true
+
+[[files]]
+file = "mods/hexgloop.pw.toml"
+hash = "37872049651685fc96ae6c2a7c3928fddd1409231522a6c3c12ed64f59e72c8d"
 metafile = true
 
 [[files]]
@@ -5721,6 +5736,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli-fabric.pw.toml"
 hash = "0103115337ebe895bb4802a4de51d9ea8f130112581b9cdf28ed3abee59d50de"
+metafile = true
+
+[[files]]
+file = "mods/paucal.pw.toml"
+hash = "c64f8051b4c8cd2d1ecc17347eb986f7fec0613622cf993c92c323e8b6d9d4c7"
 metafile = true
 
 [[files]]
@@ -6166,6 +6186,11 @@ metafile = true
 [[files]]
 file = "mods/wmitaf.pw.toml"
 hash = "2a16400b1c97dd7cbb525f1bacf75a95b9167f91395776dc6597dba76d634d46"
+metafile = true
+
+[[files]]
+file = "mods/wnboi.pw.toml"
+hash = "aac4dc8649bdad07ffb25998c53dcb2c8117199e00856482e1489f809b65254e"
 metafile = true
 
 [[files]]

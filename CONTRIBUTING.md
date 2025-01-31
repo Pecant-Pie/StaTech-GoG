@@ -1,5 +1,7 @@
 # Contribution Guidelines
-Hello. Thank you for taking an interest in making StaTech Industry a better modpack. As the pack grows, and others have shown interest in helping, I figured it would be best to lay down my design philosophies and what I look for in any addition to the pack.
+_I (PecantPie) am still following these guidelines, but I have changed some text here to clarify my intentions with this fork._
+
+If you notice any issues or progression blocks please open an issue to let me know. Alternatively, feel free to submit a PR and I will review it.  
 
 ## Code Consistency
 Any KubeJS added code must follow the existing formatting. Please note, that I may change how I format things in the future, but in general, it will look how it is currently.
@@ -12,8 +14,9 @@ In addition to the file organization, the code should also match a certain forma
 New materials, fluids, etc. for MI should be placed in the corresponding startup script in `modern_industrialization.js`. It is expected to match the formatting given within that file. Any new multiblocks should utilize the ShapeBuilder functionality recently added by Modern Industrialization.
 
 ## Design Philosophy
-While changes are welcome, they should fall in line with how the pack is overall designed. I've spent the last three months modifying progression, recipes, and designing a questbook to best guide players through the pack. To ensure the best outcome, I adhered to the following principles:
-- The pack must be focused on the Modern Industrialization mod. While there are other big mods in the pack like Spectrum, TechReborn, and the Twilight Forest, the player should be expected to use Modern Industrialization to advance.
+While changes are welcome, they should fall in line with how the pack is overall designed. To ensure the best outcome, I adhered to the following principles:
+- ~~The pack must be focused on the Modern Industrialization mod. While there are other big mods in the pack like Spectrum, TechReborn, and the Twilight Forest, the player should be expected to use Modern Industrialization to advance.~~
+- This fork _(GoG)_ includes an additional focus on Botania for progression, especially in the early game. The aim is to shift the focus away from exploration and mining and towards small automations and unique mechanics. However, nothing unlocked in Botania should leap ahead of base StaTech progression, so for example the Flugel Tiara's recipe is changed to be similar to the gravichestplate. 
 - Recipes should complete in a reasonable amount of time. Extreme time-gating is not a fun feature, and waiting for a machine to finish a recipe should not be encouraged. The player should be constantly moving forward in progression, not moving a bit, waiting an hour, then moving a bit more. Additionally, this applies for recipe requirements, it should not take real life days to acquire the amount of materials to progress forward. I do not want an endgame that requires you to AFK while machines work.
 - Quest rewards *should* be rewarding. As they may seem OP right now, they aren't in the grand scheme of things. The player will still need to setup automation for any material they might get as a reward, as they will need significantly more of it in the future. Rewards should be used to help the player progress and to activate the dopamine receptors when they complete something. That being said, rewards walk a thin line of what is too good and what is trash. Rewards should be acquirable in the players current stage of the game, and shouldn't be in a quantity that nullifies a significant part of progression.
 - No complex processing lines for a mediocre outcomes. Long processing lines to produce a single ingot to make a pickaxe are not welcome. If a processing line is to be added, it should actually add something to the game. The best processing lines are the ones added to flesh out progression. As an example, the need to create a chemical line to create polyethylene is rewarding and is a good gate of progression into the next tiers of machines.
