@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid",
+    "input": {
+      "type": "block",
+      "block": "minecraft:andesite"
+    },
+    "output": {
+      "type": "block",
+      "block": "create:zinc_ore"
+    },
+    "weight": 1
+  }

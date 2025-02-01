@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["045C683BF6E216CB"]
-			description: ["Pretty much following &evanilla progression&r here for a bit. I'll even give you a bit extra to help build a &2simple shelter&r or some more &9tools&r."]
+			description: ["Sneak+right click the dirt on your island to pick up loose pebbles. Use those to craft your first cobblestone."]
 			id: "300516B03C1580A2"
 			rewards: [
 				{
@@ -31,7 +31,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "You're now a caveman!"
+			subtitle: "You're now a... pebble man?"
 			tasks: [{
 				count: 16L
 				id: "7CC55C91038E66C3"
@@ -46,11 +46,15 @@
 				type: "item"
 			}]
 			title: "The Stone Age"
-			x: -2.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
-			description: ["This is the start to &a99% of any playthrough&r. You can explore the world a bit, but eventually you will need to make some &ebasic tools&r."]
+			description: [
+				"This is the start to &a99% of any playthrough&r. Unforunately, you don't see any! "
+				""
+				"Try breaking the &6wooden blocks&r beneath your island and use the drops to craft a sapling. You can use the roots for bonemeal as well! Make some floral fertilizer while you're at it. You can explore the world a bit, but eventually you will need to make some &ebasic tools&r."
+			]
 			id: "045C683BF6E216CB"
 			rewards: [
 				{
@@ -78,25 +82,32 @@
 			]
 			shape: "square"
 			subtitle: "The noble start of any playthrough"
-			tasks: [{
-				count: 16L
-				id: "229519744915FFDA"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
+			tasks: [
+				{
+					count: 16L
+					id: "229519744915FFDA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
 					}
+					title: "Any Logs"
+					type: "item"
 				}
-				title: "Any Logs"
-				type: "item"
-			}]
-			title: "Punch Trees"
-			x: -3.5d
+				{
+					id: "55B019D7117EABEA"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			title: "Punch Trees?"
+			x: -4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4B07D0F2469CC1A7"]
+			dependencies: ["560C4352B7A7725B"]
 			dependency_requirement: "one_completed"
 			description: [
 				"The early game of this pack is focused around the &eCreate&r mod. For this, you will need a lot of &aAndesite&r. Luckily, this quest rewards you with &esome extra&r. Once you have a &6Bronze Mixer&r you will unlock a recipe to make &aAndesite&r renewable!"
@@ -130,7 +141,7 @@
 				type: "item"
 			}]
 			title: "Prepare for Create"
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -177,7 +188,7 @@
 				type: "item"
 			}]
 			title: "Andesite Alloy"
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -210,7 +221,7 @@
 				type: "item"
 			}]
 			title: "Rotational Power"
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -247,7 +258,7 @@
 				}
 			]
 			title: "Windmill"
-			x: 6.0d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -293,7 +304,7 @@
 				}
 			]
 			title: "Big and Little Cogs"
-			x: 4.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -319,7 +330,7 @@
 				type: "checkmark"
 			}]
 			title: "Stress Units and Rotational Force"
-			x: 4.0d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -352,7 +363,7 @@
 				type: "checkmark"
 			}]
 			title: "Increase/Decrease Rotation Speed"
-			x: 4.0d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -379,7 +390,7 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -417,7 +428,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -467,7 +478,7 @@
 				}
 			]
 			title: "Mechanical Mixer"
-			x: 10.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -513,7 +524,7 @@
 				type: "item"
 			}]
 			title: "Bronze"
-			x: 12.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -565,7 +576,7 @@
 				type: "item"
 			}]
 			title: "The Forge Hammer"
-			x: 14.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -596,7 +607,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -626,7 +637,7 @@
 				item: "inmis:frayed_backpack"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
@@ -652,7 +663,7 @@
 				item: "kibe:pocket_crafting_table"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -695,7 +706,7 @@
 				type: "item"
 			}]
 			title: "Spikes"
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -721,7 +732,7 @@
 				item: "kibe:wooden_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -747,7 +758,7 @@
 				item: "kibe:torch_sling"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -3.0d
 		}
 		{
@@ -777,7 +788,7 @@
 				item: "kibe:trash_can"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -803,7 +814,7 @@
 				item: "kibe:pocket_trash_can"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -851,7 +862,7 @@
 				type: "item"
 			}]
 			title: "Drawers"
-			x: -4.0d
+			x: -5.0d
 			y: -2.0d
 		}
 		{
@@ -897,7 +908,7 @@
 				type: "item"
 			}]
 			title: "Drawer Upgrades"
-			x: -4.0d
+			x: -5.0d
 			y: -6.0d
 		}
 		{
@@ -933,7 +944,7 @@
 				item: "extended_drawers:connector"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -6.0d
 		}
 		{
@@ -956,7 +967,7 @@
 				type: "checkmark"
 			}]
 			title: "Drawer Networks"
-			x: -4.0d
+			x: -5.0d
 			y: -4.0d
 		}
 		{
@@ -988,7 +999,7 @@
 				item: "extended_drawers:access_point"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -6.0d
 		}
 		{
@@ -1022,7 +1033,7 @@
 				type: "item"
 			}]
 			title: "Voiding Mode"
-			x: -2.0d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
@@ -1057,7 +1068,7 @@
 				type: "item"
 			}]
 			title: "Hidden Mode"
-			x: -6.0d
+			x: -7.0d
 			y: -6.0d
 		}
 		{
@@ -1089,7 +1100,7 @@
 				type: "item"
 			}]
 			title: "Tom's Simple Storage Mod"
-			x: -3.5d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -1115,7 +1126,7 @@
 				item: "toms_storage:ts.storage_terminal"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -1141,7 +1152,7 @@
 				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -1167,7 +1178,7 @@
 				item: "toms_storage:ts.wireless_terminal"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 4.5d
 		}
 		{
@@ -1206,7 +1217,7 @@
 				}
 			]
 			title: "Inventory Cables"
-			x: -5.0d
+			x: -6.0d
 			y: 3.5d
 		}
 		{
@@ -1239,7 +1250,7 @@
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: 4.5d
 		}
 		{
@@ -1265,7 +1276,7 @@
 				item: "toms_storage:ts.trim"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -1295,7 +1306,7 @@
 				item: "toms_storage:ts.inventory_hopper_basic"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -1321,76 +1332,8 @@
 				item: "toms_storage:ts.level_emitter"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["300516B03C1580A2"]
-			description: [
-				"While traversing your world you might have noticed &3small pebbles&r placed around the surface called &dSamples&r. These &dSamples&r are indicative of a &elarger ore deposit&r below them. That's right, &2GregTech-like oregen&r is in this pack and you will need to find varying &eore deposits&r to gather the materials you will need to progress. Don't worry, once you find one it will last awhile. Also it is worth noting that &cthere aren't many types of ores for a single type of material&r. An &aIron Vein&r will have &aIron Ore&r, and no other &cIron Ore-like&r ores like &2GregTech&r."
-				""
-				"To make finding these &eore deposits&r easier, there is the &6Prospector Pick&r. Right clicking with this will show you a notification of what &aores can be found nearby or below you&r. "
-				""
-				"&cNeed to find a specific ore&r? You can click the block in &dREI&r and check the &binformation tab&r to see which &eore vein&r it spawns in. For example, this is what that tab looks like for &3Nickel Ore&r:"
-				""
-				"{image:statech:textures/item/nickel_ore.png width:125 height:200 align:1}"
-				""
-				"A complete breakdown of these values is as follows:"
-				"- &3Range&r: the &ay-level range&r the vein can generate"
-				"- &2Size&r: the &bsize of the vein&r, &cdoes not correlate to how many blocks are in the vein&r"
-				"- &dDimension&r: which &edimension&r the vein can be found"
-				"- &bBiome&r: which &6biome&r the vein can be found"
-				"- &9Weight&r: the generation &3weight&r of this specific vein"
-				"- &6Blocks&r: the &aores within the vein&r and their &3generation rate within the vein&r"
-				""
-				"&bPlease note you might have to scroll to see all ores in a vein&r."
-				""
-				"Also note that the tooltips on the &aore blocks&r are &cmisleading&r, only trust the &ainformation from the information panel&r."
-				""
-				"The only ores not changed are from &dSpectrum&r"
-			]
-			icon: {
-				Count: 1b
-				id: "geocluster:prospectors_pick"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "4B07D0F2469CC1A7"
-			rewards: [
-				{
-					id: "1308F809CDF06B62"
-					item: {
-						Count: 1b
-						id: "geocluster:prospectors_pick"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1E447264F194380B"
-					table_id: 1292583397374875582L
-					type: "random"
-				}
-				{
-					id: "6AB9562F5568B609"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "square"
-			subtitle: "Giant ore veins return!"
-			tasks: [{
-				id: "769292BA522B15FD"
-				title: "Click to Acknowledge"
-				type: "checkmark"
-			}]
-			title: "Time to Mine!"
-			x: -0.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["63276C644789068A"]
@@ -1430,7 +1373,7 @@
 				title: "Lumberaxes"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -1468,7 +1411,7 @@
 				title: "Hammers"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 1.5d
 		}
 		{
@@ -1494,7 +1437,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -1524,7 +1467,7 @@
 				item: "enhancedworkbenches:crafting_station"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -1559,8 +1502,153 @@
 				item: "enhancedworkbenches:project_table"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["300516B03C1580A2"]
+			description: ["Craft a petal apothecary and scoop up some water to make your way into Botania."]
+			id: "50B2161700C8184E"
+			rewards: [
+				{
+					id: "234F709958A8730F"
+					item: "kubejs:coin_common"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "240C651261231AF0"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "29F8A1E164620E10"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "48A8110AD3A039DD"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "35B84B91F32BD4B6"
+					item: "botania:water_bowl"
+					type: "item"
+				}
+			]
+			title: "Floral Artifice"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50B2161700C8184E"]
+			description: [
+				"The Pure daisy makes cobblestone -> diorite, which you can use to craft Andesite to get into Create."
+				""
+				"The Orechid turns stone -> vanilla ores, which you also need to iron for Create."
+				""
+				"The Endoflame powers your whole operation, refer to the Lexica Botania to see how to link it to your Mana pool."
+			]
+			id: "560C4352B7A7725B"
+			rewards: [
+				{
+					count: 16
+					id: "2DB615FB23991A47"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "3C56376ECC4CAD97"
+					item: "kubejs:coin_common"
+					type: "item"
+				}
+				{
+					id: "4598947DCFF0C01B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			subtitle: "Things are about to get pretty"
+			tasks: [
+				{
+					id: "6A30DC6020532C3E"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "5BCDE77A0F2656CD"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "58E5829EAEDFD62D"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "1ADC38AAC289B6B3"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "5F6B1DCC3FDE5682"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "69362BCB2DA811C3"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			title: "Botania 101"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["560C4352B7A7725B"]
+			description: [
+				"Pure Daisy recipes:"
+				"Cobblestone -> Diorite"
+				"Diorite -> Calcite"
+				"Amethyst Block -> Certus Quartz"
+				"Budding Amethyst -> Flawless Certus Quartz"
+				""
+				"{@pagebreak}"
+				"Orechid recipes:"
+				"Calcite -> Amethyst, Citrine, and Topaz clusters"
+				"Andesite -> Tin, Nickel, and Zinc ore"
+				"Scoria -> Antimony and Bauxite ore"
+				""
+				""
+				"{@pagebreak}"
+				"Alchemy Catalyst Infusion:"
+				"Iron Block -> Silicon Press (expensive)"
+				"Silicon Press -> Logic Press (cheap)"
+				"Logic Press -> Calculation Press (cheap)"
+				"Calculation -> Engineering (cheap)"
+				"Engineering -> Silicon (cheap)"
+				""
+				""
+				"{@pagebreak}"
+				"For Spectrum, go fishing, trust me. There are some new drops for water and mud."
+			]
+			id: "04130AB109A03AD1"
+			shape: "rsquare"
+			tasks: [{
+				id: "208F39A5FAFF024B"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "GoG Modpack Changes"
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Gotta start somewhere"]

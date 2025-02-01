@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'StaTech Industry';
+S:customwindowtitle = 'StaTech Industry: GoG';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

@@ -1,12 +1,12 @@
-name = "StaTech Industry"
-author = "static"
+name = "StaTech Industry GoG"
+author = "pecantpie"
 version = "1.1.15"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ef184a72041f66b54ba613416ee1929b7ccaffb2d20cc60f45f69db4e2e2e4bd"
+hash = "1f07780c77ca9c7f16df36a0d37c94ae0c8523f04b13e0e5e1a87224c65f2893"
 
 [versions]
 fabric = "0.16.10"

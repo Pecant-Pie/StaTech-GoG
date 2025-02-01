@@ -574,7 +574,7 @@ hash = "5d596140fff59c6c9d840043b7967245fa200829deb3ff06f705c6ec7e19081f"
 
 [[files]]
 file = "config/fancymenu/config.txt"
-hash = "dc5c04f410acdf5d91cc899197db7fbd98c4a3402849e04526479301a88bbdd5"
+hash = "81258e04c3ccbe306c726568400545af58d1b275f5a542c0dcf262ac2cbcafa3"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -714,7 +714,7 @@ hash = "cd5dc10fac4aa98d87c2d38ffba75bb1c96cfd8d8c334d17594c128118c46f15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1__stone_age.snbt"
-hash = "851226d5d7632c8f85cde7dd8ad70985bffb3307f6757f1ffb9163d309d5df38"
+hash = "16e07783301954c1234ffd8eb69b1142a6920d1d689ee8a00a56bee73e64ab43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2__the_steam_age.snbt"
@@ -722,7 +722,7 @@ hash = "297ec70fb68a80407fc1347a85e0b0e7a9e10c14fcd84a0677c1c90c6f66d184"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3__electrical_age.snbt"
-hash = "83386a29168e3b5133cfc4b508b4905c495384dd5b0242af4759603dcf4fe88d"
+hash = "d18672dece70156f88793c2249a328dd4fd96c87768c5bf979ed873848eb1372"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4__digital_age.snbt"
@@ -3678,7 +3678,7 @@ hash = "01e63558e1c02cd7f3fcf0ea09672cbcd93c99ed2502c5b137f568c2b46baf1c"
 
 [[files]]
 file = "kubejs/client_scripts/capes.js"
-hash = "409333e077f0352bdd5f5d093e1d907be5bf6f4bcbf5fdd3ff7ef3b9c24bde18"
+hash = "79d85aafaf3969e110a750a8a4b693af74c0ec1c53d900201f7ed6df410dde21"
 
 [[files]]
 file = "kubejs/client_scripts/ore_information.js"
@@ -3866,7 +3866,7 @@ hash = "e7b73c6f0954a9390334ded5da67cca0db450a3c0d704e72a5e6787107d97e31"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "ca929bb3d3f66387b3b2a6669dabf21046baadc6f4be3e76a3efbf2d06728857"
+hash = "d73c1b01eec3357d9eec7f5a691f148097604bc026e78bfb561c42ef7c6cb37f"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -3883,6 +3883,74 @@ hash = "fdc60b5fbad98512b09e38a5aa2070cff4e5637753178e0748defb3ddc4babcd"
 [[files]]
 file = "kubejs/data/blockus/loot_tables/blocks/rainbow_glowstone.json"
 hash = "b8c7f00d5398bbd808ae6f6755a1e348513c3f97f921282e484a49dd4c5ba83b"
+
+[[files]]
+file = "kubejs/data/botania/recipes/mana_infusion/calculation_press_to_engineering_press.json"
+hash = "a8fa28755180308b66750e0f0df9d3056de3638c19e2d53a4d70365557d279be"
+
+[[files]]
+file = "kubejs/data/botania/recipes/mana_infusion/engineering_press_to_silicon_press.json"
+hash = "15e3d08afe5e579a597597de1bcf3d21f8d2b06650bbeba89533d7f5b7656c82"
+
+[[files]]
+file = "kubejs/data/botania/recipes/mana_infusion/iron_block_to_silicon_press.json"
+hash = "757bc28cfaba6670af54bcaaf4bc48e17a427fcba17de2c633e2876d5296b0c2"
+
+[[files]]
+file = "kubejs/data/botania/recipes/mana_infusion/logic_press_to_calculation_press.json"
+hash = "c7e5bc4bebab9dd89200422f46bbcc9ab67b5eed604d54677026551d1757777e"
+
+[[files]]
+file = "kubejs/data/botania/recipes/mana_infusion/silicon_press_to_logic_press.json"
+hash = "3816bc84578ff27192e3789d18133e71013542b328eb1598efc6fa0930e738fe"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/amethyst_cluster.json"
+hash = "1b299a751ec1d645dbc5dcc1f61dc59585c7786d575bf0f269089733056454d5"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/antimony_ore.json"
+hash = "099c5562fa62324f5df093cc07ee261821b3b16aad9b75aed6d4950f94251a5b"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/bauxite_ore.json"
+hash = "13d8d84fac5c368e49815dcfae5f650b7334822364e8f7de7cb0e2c584b10298"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/citrine_cluster.json"
+hash = "b6721bbeebb5e5dce09ff199bf9e0a89b65f69a68370d205348e902710525a21"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/nickel_ore.json"
+hash = "cedbb8f6ec7deebda2da748be54085903ed5fe01a211f79331eb82cd32deb8a1"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/tin_ore.json"
+hash = "732ac97992f76a73011c18cb2b177ce2416120dee45705318b7cfa08d864e0f6"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/topaz_cluster.json"
+hash = "64bc0660ea451f02d0f7fbf76e961dc4f1302ceecec5759c3a4f80087e0c6155"
+
+[[files]]
+file = "kubejs/data/botania/recipes/orechid/zinc_ore.json"
+hash = "0ffc9b9b6f9bc927e17d7c1b4722a15190f75f9e9c638ef71f7939ac89aede42"
+
+[[files]]
+file = "kubejs/data/botania/recipes/pure_daisy/calcite.json"
+hash = "c312f2995f3b2996d481aa9d81e4dae1265828aceb4de9d2eb13a72142175c1e"
+
+[[files]]
+file = "kubejs/data/botania/recipes/pure_daisy/certus_quartz_block.json"
+hash = "6786eac9ff7869cfe7660e12477a6eb023ba5ca5a5963e2593e84e249fa3d2b0"
+
+[[files]]
+file = "kubejs/data/botania/recipes/pure_daisy/diorite.json"
+hash = "579cd82872623c662593aab103634955ecc2182e9e7bdd5e74cf87a37a67753c"
+
+[[files]]
+file = "kubejs/data/botania/recipes/pure_daisy/flawless_budding_quartz.json"
+hash = "c8d6208cef4bd241b9b447355c830fbf12939e55cac570e2c1d216931ec0087a"
 
 [[files]]
 file = "kubejs/data/chisel/tags/items/chiseled_blocks.json"
@@ -4209,6 +4277,30 @@ file = "kubejs/data/minecraft/loot_tables/entities/strider.json"
 hash = "d81b8bebd08ef4007e759418ba82fb3602e59bc69bb8e3bf268a51d2f9dd0baf"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_tables/gameplay/fishing.json"
+hash = "ce81e82509eddb3b27aae5898f6c888bc195d81f7b136b8b2fddb0b7fa0a943b"
+
+[[files]]
+file = "kubejs/data/spectrum/loot_tables/gameplay/fishing/mud/junk.json"
+hash = "519de441e90c4cf91a9ff37db7d889bd64858566c53b7b210433fdb40bf6abce"
+
+[[files]]
+file = "kubejs/data/spectrum/loot_tables/gameplay/fishing/mud/treasure.json"
+hash = "457af371ece314f84a13639019ab193f587657eaaa02746c90f124307e068662"
+
+[[files]]
+file = "kubejs/data/spectrum/worldgen/structures/pedestal_ruins_deepslate.json"
+hash = "e40231ebacdd9bc23bf23521d3e4e1dbf02ee642036203aa451f2ba486a039fe"
+
+[[files]]
+file = "kubejs/data/spectrum/worldgen/structures/pedestal_ruins_stone.json"
+hash = "343f9709a4984d4cef2767d76d3fd21c551e4350d16ebf4e138632d95e88f520"
+
+[[files]]
+file = "kubejs/data/spectrum/worldgen/structures/preservation_ruins.json"
+hash = "2a2058cb3bb96a9c9debd96fcca6c55e3124c691aa7666162d62e5571511c6fe"
+
+[[files]]
 file = "kubejs/data/statech/farmingforblockheads_compat/byg_saplings.json"
 hash = "e662bec412d9bf9511d4cb3afdf7163fc14a2536ff02fa2f6f3cfeca857798cf"
 
@@ -4309,6 +4401,10 @@ file = "kubejs/data/trinkets/slots/legs/belt.json"
 hash = "ead8f8ef25a98cd4b4dfe5c3de823dc72ae6e2e1bcbfcb2c4f4759465467ceab"
 
 [[files]]
+file = "kubejs/data/twilight_forest/dimension/twilight_forest.json"
+hash = "66a3730eb4497218855fc5bd89c6a6cc77b0d2667cfa4b4af5d2db73121fe498"
+
+[[files]]
 file = "kubejs/server_scripts/claim_interact_whitelist.js"
 hash = "4c091c4a1ae1317cc383915c4d90922b652dd8ee917aac116617d21a6e43666c"
 
@@ -4322,7 +4418,7 @@ hash = "dd7b8290256f98091e9145ad98da2be09363a54ada0e837c10a22968a07c7a9d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/ae2.js"
-hash = "b69eb83ae5eaafc3be638b2c6aa9cfbcd2c67144313899fb836632f9d745b951"
+hash = "fce27d3f0626905d91f3f7ef5e7aad2124f9ad85454952e4a28927652a475190"
 
 [[files]]
 file = "kubejs/server_scripts/mods/anim_guns.js"
@@ -4331,6 +4427,10 @@ hash = "79a5038b3197759e83a1a162427eeedbc97afb206a4f05bd815d0cc2082260fa"
 [[files]]
 file = "kubejs/server_scripts/mods/blockus.js"
 hash = "95a29a9cf8d0da8005fb5bad666e16402c8d44c512df84e6b9aed6ff9ac3411f"
+
+[[files]]
+file = "kubejs/server_scripts/mods/botania.js"
+hash = "aa7cb14709ee0f7d5a7a5fdcb9cdf431ca8ff072456200d193a84bddfb14ebcf"
 
 [[files]]
 file = "kubejs/server_scripts/mods/building_gadgets.js"
@@ -4606,7 +4706,7 @@ hash = "5424175a95bb80cf2c1dda2b190bd3dc1cc5b98bf7dfec782ac8f43c97a8cf97"
 
 [[files]]
 file = "kubejs/server_scripts/mods/spectrum.js"
-hash = "7e982a9e92f755d8f3fa5fb7ccc13a4c8fc21447a75c73b5521dd75a0a876dfb"
+hash = "e254adf7a9305023a6901080466fa6b74391b6f771cca530e79f35b39d72b79a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/spellblade.js"
@@ -4678,7 +4778,7 @@ hash = "7206b71c7bc4f709ed2540c1bc96f506f2d15ae803ec0eccea331c76e4e187ce"
 
 [[files]]
 file = "kubejs/server_scripts/statech.js"
-hash = "950f64f19958fffb9d33b8b8c692defa385ae7d33198edb1c64c97e26dd29d60"
+hash = "f16d31ec3638eadc24104eb87be9a5c9c39e6d47a4070574a18fb624065bfcea"
 
 [[files]]
 file = "kubejs/server_scripts/statech_food.js"
@@ -4984,6 +5084,11 @@ hash = "9832f617bb01d31f806aec9f711a008a75883deb2d17e000648b51ddecdb871b"
 metafile = true
 
 [[files]]
+file = "mods/botania-garden-of-glass.pw.toml"
+hash = "fc5584a4b48ef7f2d49afedc9650c4d639c2a97288a7608a48c60363592d877f"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 hash = "40e4c35a7c5482a2e609b1c4fb73fb8c2a442450ceabc6e8a6bfc8e452de607b"
 metafile = true
@@ -4995,7 +5100,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-wands.pw.toml"
-hash = "2267c9722c0b3395e651002236ae1a408ad45b63673b2ed8d7fef3df11455972"
+hash = "03be6a990d9064aa72d501842aea783b2d9abeddeff321a81bf423feeca130c6"
 metafile = true
 
 [[files]]
@@ -5095,7 +5200,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "802f47f9cdbadb2b7a7bcca278d0accce43c6549d09b61096bce89e501e8bcf1"
+hash = "0a4f4cab33d3ccde5a6c1af9d03e1fb3fac5881080a099f6c9c4e5b18c121611"
 metafile = true
 
 [[files]]
@@ -5169,11 +5274,6 @@ hash = "d6c2cb674a8ca13440f9bf29b6bd2d0b062296a76a32894f2020ab984430da48"
 metafile = true
 
 [[files]]
-file = "mods/crimsoniris.pw.toml"
-hash = "dee936d8fb922a250cbfcd7b6dc733e55274d92fd777a6a8e6eaabb4ee13c77b"
-metafile = true
-
-[[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "e2a60b6289fdba4e7792a1b2aacfe861b9e729e6f0f6f283f61eea0c0bdf2b5a"
 metafile = true
@@ -5221,6 +5321,11 @@ metafile = true
 [[files]]
 file = "mods/dustrial-decor-fabric.pw.toml"
 hash = "5f5aadf1e89ba5691eb37395459d96cde026c197e1c22de8289d1b798aadd90a"
+metafile = true
+
+[[files]]
+file = "mods/e4mc.pw.toml"
+hash = "31e031e1e75b551ed02507dead1e3bb12a22dc7c2bb2658312cc8f6950eb0755"
 metafile = true
 
 [[files]]

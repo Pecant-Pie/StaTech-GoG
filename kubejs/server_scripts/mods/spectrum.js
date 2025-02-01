@@ -245,9 +245,57 @@ ServerEvents.recipes(e => {
             item: sp('quitoxic_reeds'),
             count: 3
         },
-        required_advancement: [
-            sp('collect_quitoxic_reeds')
-        ]
+    });
+
+    // -- JADE VINE BULB -- //
+    e.custom({
+        id: st('vine_bulb_from_coins'),
+        type: sp('pedestal'),
+        time: 200,
+        tier: 'simple',
+        cyan: 0,
+        magenta: 0,
+        yellow: 0,
+        white: 0,
+        black: 0,
+        experience: 10.0,
+        pattern: [
+            ' C ',
+            'C C',
+            ' C '
+        ],
+        key: {
+            C: { item: kj('coin_rare') }
+        },
+        result: {
+            item: sp('hibernating_jade_vine_seeds'),
+            count: 1
+        },
+    });
+    // -- BLOOD ORCHID PETALS -- //
+    e.custom({
+        id: st('blood_orchid_from_coins'),
+        type: sp('pedestal'),
+        time: 200,
+        tier: 'simple',
+        cyan: 0,
+        magenta: 0,
+        yellow: 0,
+        white: 0,
+        black: 0,
+        experience: 10.0,
+        pattern: [
+            ' C ',
+            ' C ',
+            ' C '
+        ],
+        key: {
+            C: { item: kj('coin_rare') }
+        },
+        result: {
+            item: sp('blood_orchid_petal'),
+            count: 3
+        },
     });
 
     e.stonecutting(sp('amethyst_storage_block'), bl('polished_amethyst'));

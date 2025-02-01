@@ -127,6 +127,15 @@ ServerEvents.recipes(e => {
         C: common
     }).id(st('andesite_from_common'));
 
+    // -- BASALT -- //
+    e.shaped('16x ' + mc('smooth_basalt'), [
+        'C', 'C',
+        'C', 'C'
+    ],
+    {
+        C: common
+    }).id(st('basalt_from_common'));
+
     // -- AMETHYST SHARD -- //
     e.shaped('8x ' + mc('amethyst_shard'), [
         'C  ',

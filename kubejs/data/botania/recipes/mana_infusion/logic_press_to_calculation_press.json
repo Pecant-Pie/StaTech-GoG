@@ -1,0 +1,14 @@
+{
+    "type": "botania:mana_infusion",
+    "catalyst": {
+      "type": "block",
+      "block": "botania:alchemy_catalyst"
+    },
+    "input": {
+      "item": "ae2:logic_processor_press"
+    },
+    "mana": 200,
+    "output": {
+      "item": "ae2:calculation_processor_press"
+    }
+  }
