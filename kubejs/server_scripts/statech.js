@@ -129,8 +129,8 @@ ServerEvents.recipes(e => {
 
     // -- BASALT -- //
     e.shaped('16x ' + mc('smooth_basalt'), [
-        ['C', 'C',],
-        ['C', 'C']
+        'C C',
+        'C C'
     ],
     {
         C: common
