@@ -1,0 +1,13 @@
+{
+    "type": "botania:elven_trade",
+    "ingredients": [
+      {
+        "item": "minecraft:chorus_flower"
+      }
+    ],
+    "output": [
+      {
+        "item": "spectrum:hibernating_jade_vine_seeds"
+      }
+    ]
+  }

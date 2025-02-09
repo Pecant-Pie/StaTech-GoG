@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid",
+    "input": {
+      "type": "block",
+      "block": "minecraft:smooth_basalt"
+    },
+    "output": {
+      "type": "block",
+      "block": "spectrum:shimmerstone_ore"
+    },
+    "weight": 10
+  }

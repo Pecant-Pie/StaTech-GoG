@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid",
+    "input": {
+      "type": "block",
+      "block": "minecraft:smooth_basalt"
+    },
+    "output": {
+      "type": "block",
+      "block": "spectrum:onyx_ore"
+    },
+    "weight": 1
+  }
