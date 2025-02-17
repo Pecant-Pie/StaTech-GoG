@@ -1650,6 +1650,48 @@
 			x: 0.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["50B2161700C8184E"]
+			description: [
+				"Bellethorne is very cheap to craft and uses a small amount of mana to hurt all mobs nearby. Setting one up in a dark room with a mana pool + endoflame outside of it is a great way to get mob drops early on."
+				""
+				"The Hopperhock requires you to get a runic altar first to make it, but it will allow you to automate item collection from your mob farm easily."
+			]
+			id: "02C21C01EFFA171A"
+			rewards: [
+				{
+					id: "11D3D6FD9C27FF82"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+				{
+					id: "6E5E59D6E6804DFB"
+					item: "kubejs:coin_common"
+					type: "item"
+				}
+				{
+					id: "7DD8A1F39A6CEE39"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Reduce the grind!"
+			tasks: [
+				{
+					id: "43C95B0EF6C04C2C"
+					item: "botania:bellethorn"
+					type: "item"
+				}
+				{
+					id: "01CE279BC4649298"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+			]
+			title: "Optional Flowers"
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	subtitle: ["Gotta start somewhere"]
 	title: "&b1 - Getting Started"

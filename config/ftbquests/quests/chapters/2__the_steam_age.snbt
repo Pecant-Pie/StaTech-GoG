@@ -35,7 +35,7 @@
 				item: "modern_industrialization:forge_hammer"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -112,8 +112,8 @@
 				item: "modern_industrialization:bronze_barrel"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5EDE88BDA0182BD7"]
@@ -147,8 +147,8 @@
 				item: "modern_industrialization:bronze_tank"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01E58DD70F1D9B15"]
@@ -185,7 +185,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5EDE88BDA0182BD7"]
+			dependencies: ["66838640271B601C"]
 			description: [
 				"&aFire Clay Dust&r can be made by mixing two &6Clay Balls&r and two &eBrick Dusts&r in a &eCreate&r &dMechanical Mixer&r."
 				""
@@ -220,7 +220,7 @@
 				type: "item"
 			}]
 			title: "Fire Clay Dust"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -2656,7 +2656,7 @@
 				type: "item"
 			}]
 			title: "Elevators"
-			x: 1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -2742,7 +2742,7 @@
 				item: "catwalksinc:catwalk"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -2778,7 +2778,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -3000,7 +3000,7 @@
 				type: "item"
 			}]
 			title: "Take to the Skies"
-			x: -0.5d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -3504,7 +3504,7 @@
 				item: "kibe:measuring_tape"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -3665,7 +3665,7 @@
 				item: "ironchests:gold_chest"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 4.5d
 		}
 		{
@@ -3696,7 +3696,7 @@
 				item: "ironchests:iron_chest"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -3727,7 +3727,7 @@
 				item: "ironchests:copper_chest"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -3770,7 +3770,7 @@
 				type: "item"
 			}]
 			title: "Chest Upgrades"
-			x: -4.5d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -3811,7 +3811,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -3854,7 +3854,7 @@
 				}
 			]
 			title: "Lock \\& Key"
-			x: -5.5d
+			x: -6.5d
 			y: -0.5d
 		}
 		{
@@ -3927,7 +3927,7 @@
 				item: "xps:soul_copper_blend"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -3963,7 +3963,7 @@
 				item: "xps:block_xp_obelisk"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -5.75d
 			y: -3.0d
 		}
 		{
@@ -3994,7 +3994,7 @@
 				item: "xps:soul_copper_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -4034,7 +4034,7 @@
 				item: "xps:xp_remover"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -4069,7 +4069,7 @@
 				item: "xps:xp_berries"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: -3.0d
 		}
 		{
@@ -4100,7 +4100,7 @@
 				item: "xps:xp_berries_seeds"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: -3.0d
 		}
 		{
@@ -4131,7 +4131,7 @@
 				item: "xps:xp_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -4418,7 +4418,7 @@
 				item: "ironchests:copper_barrel"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -4448,7 +4448,7 @@
 				item: "ironchests:iron_barrel"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -4478,7 +4478,7 @@
 				item: "ironchests:gold_barrel"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -4835,6 +4835,75 @@
 			}]
 			x: 11.0d
 			y: 5.5d
+		}
+		{
+			id: "66838640271B601C"
+			shape: "square"
+			tasks: [
+				{
+					count: 16L
+					id: "703ABB1C5A89766E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "281018344748F537"
+					item: "botania:clayconia"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2BD0BA2A2D02491B"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			title: "Sand and Clay"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EDE88BDA0182BD7"]
+			description: [
+				"You'll need to get to the nether to progress anywhere in this chapter, which brings you back to Botania again. Fel pumpkins and iron rods can be placed like a snow golem to spawn a blaze that drops several blaze powder."
+				""
+				"Check the uses for a Blaze mesh to see how to proceed."
+			]
+			id: "65E809D5E95C7941"
+			shape: "square"
+			tasks: [
+				{
+					id: "61D818C9302E982A"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "632487052304B815"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+				{
+					id: "35D21382219E8D40"
+					item: "botania:blaze_block"
+					type: "item"
+				}
+			]
+			title: "Towards the Nether"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "3523D15704F1F09E"
+			shape: "square"
+			subtitle: "You clasp your hands in determination"
+			tasks: [{
+				id: "6A5F115295A2C320"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["The Basis of Industry"]

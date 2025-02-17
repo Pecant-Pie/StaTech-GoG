@@ -714,11 +714,11 @@ hash = "cd5dc10fac4aa98d87c2d38ffba75bb1c96cfd8d8c334d17594c128118c46f15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1__stone_age.snbt"
-hash = "16e07783301954c1234ffd8eb69b1142a6920d1d689ee8a00a56bee73e64ab43"
+hash = "54d28326d7a493ccc902735aa89e4b8faa150e11b326290ffb44d53f994d5bc1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2__the_steam_age.snbt"
-hash = "297ec70fb68a80407fc1347a85e0b0e7a9e10c14fcd84a0677c1c90c6f66d184"
+hash = "59b4b53937352df2653b9d4ab7876af57cc4179defdbea55bed7d41d6088cad8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3__electrical_age.snbt"
