@@ -1,0 +1,13 @@
+name = "Custom Default World Preset"
+filename = "custom-default-world-preset-1.0.1+mc.1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7560fc7ff2ce7251094262b3563bb4e3cdb818b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4545293
+project-id = 847463

@@ -485,6 +485,10 @@ file = "config/de/mari_023/ae2wtlib.json5"
 hash = "7e11a218f0d09f7c0a0d8c52b17abf7c0614173efa69adc17576f5b60ead7853"
 
 [[files]]
+file = "config/default_world_preset.txt"
+hash = "899f3fecb1c65a01fcbcecdd53058d257514b6b83955cdffdf7061cffe7a6e52"
+
+[[files]]
 file = "config/defaultoptions.toml"
 hash = "3e93640912ed3a9ddf871b45ccf373d7d8db57e50bcc2798e9b7112b2e031c67"
 
@@ -5382,6 +5386,11 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "c4aa3f125ea168d49c3a47986bac24d54e23e83bb630b5004aff6eb08404d2ed"
+metafile = true
+
+[[files]]
+file = "mods/custom-default-world-preset.pw.toml"
+hash = "24e76225ae0c56d835a988cf7c60c41296bd9817f9ffb5094c98f913061aaf1f"
 metafile = true
 
 [[files]]
